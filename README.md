@@ -57,7 +57,6 @@ write("styled.svg", g2(node_features, edge_features))
 ## Example 3: The EuclidGraphs.jl logo
 
 ```julia
-using EuclidGraphs
 logo = EuclidGraph(
     [(-50,0),(0,75),(0,25),(0,-25),(0,-75),(50, 25),(50,-25)], 
     node_style=(node) -> NodeStyle(
