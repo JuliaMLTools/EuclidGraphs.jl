@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg x="0" y="0" width="300" height="300" viewBox="-100 -100 200 200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" style="background-color:transparent;"><defs><style type="text/css"/></defs><g>
+         
+    <line x1="0" y1="0" x2="50.0" y2="0" stroke-width="3" stroke="#333" opacity="1" transform="scale(1,-1) translate(0, -10) rotate(90.0) translate(15.0, 0)"/>
+  
+    <line x1="0" y1="0" x2="47.466121627457255" y2="0" stroke-width="3" stroke="#333" opacity="1" transform="scale(1,-1) translate(0, -10) rotate(230.76263288659845) translate(15.0, 0)"/>
+  
+    <line x1="0" y1="0" x2="59.58794561770016" y2="0" stroke-width="3" stroke="#333" opacity="1" transform="scale(1,-1) translate(0, 70) rotate(213.15792388467224) translate(15.0, 0)"/>
+  
+            <line x1="0" y1="0" x2="45.15417426109393" y2="0" stroke-width="3" stroke="#333" opacity="1" transform="scale(1,-1) translate(-75, 21) rotate(337.5430610000579) translate(18.0, 0)"/>
+     <line x1="0" y1="0" x2="45.15417426109393" y2="0" stroke-width="3" stroke="#333" opacity="1" transform="scale(1,-1) translate(0, -10) rotate(22.456938999942125) translate(18.0, 0)"/>
+     <line x1="0" y1="0" x2="117.80832227158581" y2="0" stroke-width="3" stroke="#333" opacity="1" transform="scale(1,-1) translate(-49, -70) rotate(36.27386422370128) translate(18.0, 0)"/>
+     <line x1="0" y1="0" x2="114.0" y2="0" stroke-width="3" stroke="#333" opacity="1" transform="scale(1,-1) translate(-75, 21) rotate(0.0) translate(18.0, 0)"/>
+     <line x1="0" y1="0" x2="112.32734070291963" y2="0" stroke-width="3" stroke="#333" opacity="1" transform="scale(1,-1) translate(0, 70) rotate(289.29004621918875) translate(18.0, 0)"/>
+     <line x1="0" y1="0" x2="58.641428560646744" y2="0" stroke-width="3" stroke="#333" opacity="1" transform="scale(1,-1) translate(75, 21) rotate(254.05460409907712) translate(18.0, 0)"/>
+     <line x1="0" y1="0" x2="117.80832227158581" y2="0" stroke-width="3" stroke="#333" opacity="1" transform="scale(1,-1) translate(-75, 21) rotate(323.72613577629875) translate(18.0, 0)"/>
+     <line x1="0" y1="0" x2="62.0" y2="0" stroke-width="3" stroke="#333" opacity="1" transform="scale(1,-1) translate(49, -70) rotate(180.0) translate(18.0, 0)"/>
+     <line x1="0" y1="0" x2="58.641428560646744" y2="0" stroke-width="3" stroke="#333" opacity="1" transform="scale(1,-1) translate(-49, -70) rotate(105.94539590092288) translate(18.0, 0)"/>
+
+            <polygon points="25,-5 15,0 25,5" fill="#333" transform="scale(1,-1) translate(0, -10) rotate(157.5430610000579)"/>
+     <polygon points="25,-5 15,0 25,5" fill="#333" transform="scale(1,-1) translate(75, 21) rotate(202.4569389999421)"/>
+     <polygon points="25,-5 15,0 25,5" fill="#333" transform="scale(1,-1) translate(75, 21) rotate(216.27386422370128)"/>
+     <polygon points="25,-5 15,0 25,5" fill="#333" transform="scale(1,-1) translate(75, 21) rotate(180.0)"/>
+     <polygon points="25,-5 15,0 25,5" fill="#333" transform="scale(1,-1) translate(49, -70) rotate(109.29004621918872)"/>
+     <polygon points="25,-5 15,0 25,5" fill="#333" transform="scale(1,-1) translate(49, -70) rotate(74.05460409907712)"/>
+     <polygon points="25,-5 15,0 25,5" fill="#333" transform="scale(1,-1) translate(49, -70) rotate(143.72613577629872)"/>
+     <polygon points="25,-5 15,0 25,5" fill="#333" transform="scale(1,-1) translate(-49, -70) rotate(0.0)"/>
+     <polygon points="25,-5 15,0 25,5" fill="#333" transform="scale(1,-1) translate(-75, 21) rotate(285.9453959009229)"/>
+
+            <circle cx="0" cy="-10" r="12" fill="transparent" stroke-width="3" stroke="#333" transform="scale(1,-1)"/>
+    <circle cx="0" cy="-10" r="8.0" stroke-width="0" fill="transparent" transform="scale(1,-1)"/>
+        <text x="0" y="11" text-anchor="middle" dominant-baseline="middle" fill="#333" font-family="Arial" font-size="12">
+        1
+    </text>
+
+     <circle cx="0" cy="70" r="12" fill="transparent" stroke-width="3" stroke="#333" transform="scale(1,-1)"/>
+    <circle cx="0" cy="70" r="8.0" stroke-width="0" fill="transparent" transform="scale(1,-1)"/>
+        <text x="0" y="-69" text-anchor="middle" dominant-baseline="middle" fill="#333" font-family="Arial" font-size="12">
+        2
+    </text>
+
+     <circle cx="75" cy="21" r="12" fill="transparent" stroke-width="3" stroke="#333" transform="scale(1,-1)"/>
+    <circle cx="75" cy="21" r="8.0" stroke-width="0" fill="transparent" transform="scale(1,-1)"/>
+        <text x="75" y="-20" text-anchor="middle" dominant-baseline="middle" fill="#333" font-family="Arial" font-size="12">
+        3
+    </text>
+
+     <circle cx="49" cy="-70" r="12" fill="transparent" stroke-width="3" stroke="#333" transform="scale(1,-1)"/>
+    <circle cx="49" cy="-70" r="8.0" stroke-width="0" fill="transparent" transform="scale(1,-1)"/>
+        <text x="49" y="71" text-anchor="middle" dominant-baseline="middle" fill="#333" font-family="Arial" font-size="12">
+        4
+    </text>
+
+     <circle cx="-49" cy="-70" r="12" fill="transparent" stroke-width="3" stroke="#333" transform="scale(1,-1)"/>
+    <circle cx="-49" cy="-70" r="8.0" stroke-width="0" fill="transparent" transform="scale(1,-1)"/>
+        <text x="-49" y="71" text-anchor="middle" dominant-baseline="middle" fill="#333" font-family="Arial" font-size="12">
+        5
+    </text>
+
+     <circle cx="-75" cy="21" r="12" fill="transparent" stroke-width="3" stroke="#333" transform="scale(1,-1)"/>
+    <circle cx="-75" cy="21" r="8.0" stroke-width="0" fill="transparent" transform="scale(1,-1)"/>
+        <text x="-75" y="-20" text-anchor="middle" dominant-baseline="middle" fill="#333" font-family="Arial" font-size="12">
+        6
+    </text>
+
+
+    </g></svg>
