@@ -1,0 +1,4 @@
+[deps]
+EuclidGraphs = "6d00f6e2-8806-480a-ab08-d5e107e6bfed"
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+ReplGPT = "8ef5fce9-1516-4e06-b171-18cb54ddb04b"

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg x="0" y="0" width="300" height="300" viewBox="-100 -100 200 200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" style="background-color:transparent;"><defs><style type="text/css"/></defs><g>
+         
+    <line x1="0" y1="0" x2="60.13878188659973" y2="0" stroke-width="3" stroke="#ccc" opacity="1" transform="scale(1,-1) translate(-50, 0) rotate(56.30993247402023) translate(15.0, 0)"/>
+  
+    <line x1="0" y1="0" x2="25.90169943749474" y2="0" stroke-width="3" stroke="#ccc" opacity="1" transform="scale(1,-1) translate(-50, 0) rotate(26.565051177077986) translate(15.0, 0)"/>
+  
+    <line x1="0" y1="0" x2="25.90169943749474" y2="0" stroke-width="3" stroke="#ccc" opacity="1" transform="scale(1,-1) translate(-50, 0) rotate(333.434948822922) translate(15.0, 0)"/>
+  
+    <line x1="0" y1="0" x2="60.13878188659973" y2="0" stroke-width="3" stroke="#ccc" opacity="1" transform="scale(1,-1) translate(-50, 0) rotate(303.69006752597977) translate(15.0, 0)"/>
+  
+    <line x1="0" y1="0" x2="40.710678118654755" y2="0" stroke-width="3" stroke="#ccc" opacity="1" transform="scale(1,-1) translate(0, 75) rotate(315.0) translate(15.0, 0)"/>
+  
+    <line x1="0" y1="0" x2="40.710678118654755" y2="0" stroke-width="3" stroke="#ccc" opacity="1" transform="scale(1,-1) translate(0, 25) rotate(315.0) translate(15.0, 0)"/>
+  
+    <line x1="0" y1="0" x2="40.710678118654755" y2="0" stroke-width="3" stroke="#ccc" opacity="1" transform="scale(1,-1) translate(0, -25) rotate(44.99999999999999) translate(15.0, 0)"/>
+  
+    <line x1="0" y1="0" x2="40.710678118654755" y2="0" stroke-width="3" stroke="#ccc" opacity="1" transform="scale(1,-1) translate(0, -75) rotate(44.99999999999999) translate(15.0, 0)"/>
+
+        
+        
+            <circle cx="-50" cy="0" r="12" fill="transparent" stroke-width="3" stroke="#333" transform="scale(1,-1)"/>
+    <circle cx="-50" cy="0" r="8.0" stroke-width="0" fill="#4162D9" transform="scale(1,-1)"/>
+    
+     <circle cx="0" cy="75" r="12" fill="transparent" stroke-width="3" stroke="#333" transform="scale(1,-1)"/>
+    <circle cx="0" cy="75" r="8.0" stroke-width="0" fill="#389825" transform="scale(1,-1)"/>
+    
+     <circle cx="0" cy="25" r="12" fill="transparent" stroke-width="3" stroke="#333" transform="scale(1,-1)"/>
+    <circle cx="0" cy="25" r="8.0" stroke-width="0" fill="#9558B2" transform="scale(1,-1)"/>
+    
+     <circle cx="0" cy="-25" r="12" fill="transparent" stroke-width="3" stroke="#333" transform="scale(1,-1)"/>
+    <circle cx="0" cy="-25" r="8.0" stroke-width="0" fill="#9558B2" transform="scale(1,-1)"/>
+    
+     <circle cx="0" cy="-75" r="12" fill="transparent" stroke-width="3" stroke="#333" transform="scale(1,-1)"/>
+    <circle cx="0" cy="-75" r="8.0" stroke-width="0" fill="#389825" transform="scale(1,-1)"/>
+    
+     <circle cx="50" cy="25" r="12" fill="transparent" stroke-width="3" stroke="#333" transform="scale(1,-1)"/>
+    <circle cx="50" cy="25" r="8.0" stroke-width="0" fill="#CB3C33" transform="scale(1,-1)"/>
+    
+     <circle cx="50" cy="-25" r="12" fill="transparent" stroke-width="3" stroke="#333" transform="scale(1,-1)"/>
+    <circle cx="50" cy="-25" r="8.0" stroke-width="0" fill="#CB3C33" transform="scale(1,-1)"/>
+    
+
+    </g></svg>
