@@ -26,4 +26,7 @@ export SVGViz
 include("euclid_graph_svg.jl")
 export EuclidGraphSVG, getsvg
 
+import SnoopPrecompile
+include("other/precompile.jl")
+
 end
