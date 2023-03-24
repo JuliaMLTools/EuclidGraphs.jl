@@ -6,7 +6,7 @@ CurrentModule = EuclidGraphs
 
 ### Simple, lightweight, beautiful graph rendering in VSCode and SVG
 
-Render a graph in directly in VSCode (or to an SVG file) using node and edge features as input. Designed to quickly visualize input and output features for graph neural networks.
+Render a graph in directly in VSCode (or to an SVG file) using node and edge features as input. Designed to quickly visualize input and output features for graph neural networks (such as [GraphNets.jl](https://github.com/JuliaMLTools/GraphNets.jl)).
 
 ## Example 1: Basic graph
 ```julia
