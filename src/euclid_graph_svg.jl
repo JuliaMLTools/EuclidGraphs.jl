@@ -16,7 +16,7 @@ function EuclidGraphSVG(
     svg_width=300,
     svg_height=300,
     svg_view_box=(-100,-100,200,200),
-    svg_style="background-color:transparent;",
+    svg_style="background-color:#fff;",
     svg_class=nothing,
     )
     EuclidGraphSVG(
