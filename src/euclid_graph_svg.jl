@@ -31,7 +31,7 @@ function EuclidGraphSVG(
     )
 end
 
-Base.string(e::EuclidGraphSVG) = string(getsvg(e))
+Base.string(e::EuclidGraphSVG) = string(getxdoc(e))
 
 function getsvgverts(s::EuclidGraphSVG)
     (; node_features, g) = s
@@ -207,4 +207,3 @@ function getchildren(e::EuclidGraphSVG)
         </g>
     """).node
 end
-

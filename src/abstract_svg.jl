@@ -1,7 +1,8 @@
 abstract type AbstractSVG end
 
+
 function Base.show(io::IO, m::MIME"image/svg+xml", g::AbstractSVG)
-    print(io, string(getsvg(g)))
+    print(io, string(getxdoc(g)))
 end
 
 function Base.show(io::IO, m::MIME"image/svg+xml", xdoc::EzXML.Document)
@@ -17,19 +18,19 @@ function adddocattrs(x)
 end
 
 function getsvgroot(g; kwargs...)
-    EzXML.root(getsvg(g; is_doc=false, kwargs...))
+    EzXML.root(getxdoc(g; is_doc=false, kwargs...))
 end
 
 function Base.write(filename::AbstractString, svg::AbstractSVG)
     write(
         filename,
-        getsvg(svg)
+        getxdoc(svg)
     )
 end
 
 save(a::AbstractSVG) = write("./output.svg", a)
 
-function getsvg(
+function getxdoc(
     content::AbstractSVG; 
     x=0, 
     y=0, 
@@ -75,4 +76,56 @@ function getsvg(
     link!(xroot, getchildren(content))
 
     xdoc
+end
+
+function svgvcat(svgs...)
+    xdoc = EzXML.XMLDocument()
+    xroot = ElementNode("svg")
+    setroot!(xdoc, xroot)
+    svg_width = maximum(getfield.(svgs, :svg_width))
+    svg_height = sum(getfield.(svgs, :svg_height))
+    y = 0
+    for svg in svgs
+        child_xroot = root(getxdoc(svg; is_doc=false))
+        child_xroot["x"] = 0
+        child_xroot["y"] = y
+        unlink!(child_xroot)
+        link!(xroot, child_xroot)
+        y += svg.svg_height
+    end
+    StaticSVG(xdoc; svg_width, svg_height)
+end
+
+function svghcat(svgs...; kwargs...)
+    xdoc = EzXML.XMLDocument()
+    xroot = ElementNode("svg")
+    setroot!(xdoc, xroot)
+    svg_width = sum(getfield.(svgs, :svg_width))
+    svg_height = maximum(getfield.(svgs, :svg_height))
+    x = 0
+    for svg in svgs
+        child_xroot = root(getxdoc(svg; is_doc=false))
+        child_xroot["x"] = x
+        child_xroot["y"] = 0
+        unlink!(child_xroot)
+        link!(xroot, child_xroot)
+        x += svg.svg_width
+    end
+    StaticSVG(xdoc; svg_width, svg_height, kwargs...)
+end
+
+function svgzcat(svgs...; kwargs...)
+    xdoc = EzXML.XMLDocument()
+    xroot = ElementNode("svg")
+    setroot!(xdoc, xroot)
+    svg_width = maximum(getfield.(svgs, :svg_width))
+    svg_height = maximum(getfield.(svgs, :svg_height))
+    for svg in svgs
+        child_xroot = root(getxdoc(svg; is_doc=false))
+        child_xroot["x"] = 0
+        child_xroot["y"] = 0
+        unlink!(child_xroot)
+        link!(xroot, child_xroot)
+    end
+    StaticSVG(xdoc; svg_width, svg_height, kwargs...)
 end

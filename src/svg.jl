@@ -24,7 +24,7 @@ function SVG(
     width, 
     height, 
     content; 
-    style=nothing,
+    style="background-color:#fff",
     class=nothing,
     view_box=(0,0,width,height),
     bg_color=nothing,
@@ -40,13 +40,13 @@ function SVG(
     )
 end
 
-function SVG(v::Vector; dims=1)
+function SVG(v::Vector; dims=1, kwargs...)
     if dims == 1
-        return svgvcat(v...)
+        return svgvcat(v...; kwargs...)
     elseif dims == 2 
-        return svghcat(v...)
+        return svghcat(v...; kwargs...)
     end
-    svgzcat(v...)
+    svgzcat(v...; kwargs...)
 end
 
 function linkbackgroundrect!(xroot, bg_color)

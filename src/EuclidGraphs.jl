@@ -3,7 +3,15 @@ module EuclidGraphs
 include("imports.jl")
 include("utils.jl")
 include("abstract_svg.jl")
+
+include("ngon.jl")
+export ngon, triangle, square, pentagon, hexagon, heptagon, octagon, nonagon, decagon
+
+include("static_svg.jl")
+export StaticSVG
+
 include("svg.jl")
+export SVG, SVGNode
 
 include("node_style.jl")
 export NodeStyle
@@ -24,7 +32,7 @@ include("svg_viz.jl")
 export SVGViz
 
 include("euclid_graph_svg.jl")
-export EuclidGraphSVG, getsvg
+export EuclidGraphSVG, getxdoc
 
 import SnoopPrecompile
 include("other/precompile.jl")
