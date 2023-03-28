@@ -75,3 +75,22 @@ write("logo.svg", svg)
 <p align="center">
     <img width="400px" src="https://raw.githubusercontent.com/JuliaMLTools/EuclidGraphs.jl/main/docs/src/assets/logo.svg"/>
 </p>
+
+## Installation
+
+The package can be installed with the Julia package manager.
+From the Julia REPL, type `]` to enter the Pkg REPL mode and run:
+
+```
+pkg> add EuclidGraphs
+```
+
+Or, equivalently, via the `Pkg` API:
+
+```julia
+julia> import Pkg; Pkg.add("EuclidGraphs")
+```
+
+## Project Status
+
+The package is tested against, and being developed for, Julia `1.8` and above on Linux, macOS, and Windows.
