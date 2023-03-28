@@ -1,13 +1,3 @@
-struct SVG <: AbstractSVG
-    svg_width::Int
-    svg_height::Int
-    content::Function
-    svg_view_box::NTuple{4, Int}
-    svg_style::Union{Nothing,String}
-    svg_class::Union{Nothing,String}
-    bg_color::Union{Nothing,String}
-end
-
 struct SVGNode{T}
     node::T
 end
@@ -18,12 +8,39 @@ function SVGNode(str::String)
     SVGNode(xroot)
 end
 
+struct SVG <: AbstractSVG
+    svg_width::Int
+    svg_height::Int
+    content::Function
+    svg_view_box::NTuple{4, Int}
+    svg_style::Union{Nothing,String}
+    svg_class::Union{Nothing,String}
+    bg_color::Union{Nothing,String}
+end
+
+Base.string(e::SVG) = string(getxdoc(e))
 getsvgviewbox(s::SVG) = s.svg_view_box
+
+function SVG(
+    content::String; 
+    width=300,
+    height=300,
+    view_box=(-100,-100,200,200),
+    kwargs...
+    )
+    SVG(
+        width, 
+        height, 
+        () -> content; 
+        view_box=view_box,
+        kwargs...
+    )
+end
 
 function SVG(
     width, 
     height, 
-    content; 
+    content::Function; 
     style="background-color:#fff",
     class=nothing,
     view_box=(0,0,width,height),
@@ -95,4 +112,21 @@ function getxdoc(
         xroot["class"] = class
     end
     xdoc
+end
+
+function SVGText(str::String)
+    SVG("""
+        <text 
+            style="font-size:30px"
+            x="0" 
+            y="0" 
+            dominant-baseline="middle" 
+            text-anchor="middle"
+            >
+            $(str)
+        </text>""";
+        width=300,
+        height=80,
+        view_box=(-150,-40,300,80),
+    )
 end

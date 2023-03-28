@@ -13,7 +13,7 @@ include("static_svg.jl")
 export StaticSVG
 
 include("svg.jl")
-export SVG, SVGNode
+export SVG, SVGNode, SVGText
 
 include("node_style.jl")
 export NodeStyle
