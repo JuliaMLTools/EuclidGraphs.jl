@@ -86,7 +86,7 @@ write("grid.svg", grid)
 ```
 
 <p align="center">
-    <img width="600px" src="https://raw.githubusercontent.com/JuliaMLTools/EuclidGraphs.jl/main/docs/src/assets/grid.svg"/>
+    <img width="500px" src="https://raw.githubusercontent.com/JuliaMLTools/EuclidGraphs.jl/main/docs/src/assets/grid.svg"/>
 </p>
 
 ## Installation
