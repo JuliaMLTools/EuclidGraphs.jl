@@ -76,6 +76,14 @@ write("logo.svg", svg)
     <img width="400px" src="https://raw.githubusercontent.com/JuliaMLTools/EuclidGraphs.jl/main/docs/src/assets/logo.svg"/>
 </p>
 
+## Example 4: Shapes
+
+```julia
+shapes = [pole triangle square; pentagon hexagon heptagon; octagon nonagon decagon]
+svgs = [g(; svg_width=200, svg_height=200) for g in EuclidGraph.(shapes; fully_connected=true)]
+grid = SVG(svgs)
+```
+
 ## Installation
 
 The package can be installed with the Julia package manager.

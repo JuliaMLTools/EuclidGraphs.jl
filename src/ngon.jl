@@ -7,6 +7,7 @@ function ngon(n::Int, r::Real=80)
     [(r*cos(i*θ), r*sin(i*θ)) for i in 0:n-1] .|> tround
 end
 
+pole(args...) = ngon(2, args...)
 triangle(args...) = ngon(3, args...)
 square(args...) = ngon(4, args...)
 pentagon(args...) = ngon(5, args...)

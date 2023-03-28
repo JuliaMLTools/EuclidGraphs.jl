@@ -2,10 +2,12 @@ module EuclidGraphs
 
 include("imports.jl")
 include("utils.jl")
+
 include("abstract_svg.jl")
+export svgcat, svgvcat, svghcat, svgzcat
 
 include("ngon.jl")
-export ngon, triangle, square, pentagon, hexagon, heptagon, octagon, nonagon, decagon
+export ngon, pole, triangle, square, pentagon, hexagon, heptagon, octagon, nonagon, decagon
 
 include("static_svg.jl")
 export StaticSVG

@@ -40,13 +40,15 @@ function SVG(
     )
 end
 
-function SVG(v::Vector; dims=1, kwargs...)
-    if dims == 1
-        return svgvcat(v...; kwargs...)
-    elseif dims == 2 
-        return svghcat(v...; kwargs...)
+function SVG(v::Vector{<:AbstractSVG}; dims=1, kwargs...)
+    svgcat(v...; dims=dims, kwargs...)
+end
+
+function SVG(v::Matrix{<:AbstractSVG}; dims=1, kwargs...)
+    rows = map(eachrow(v)) do row
+        svghcat(row...; kwargs...)
     end
-    svgzcat(v...; kwargs...)
+    svgvcat(rows...; kwargs...)
 end
 
 function linkbackgroundrect!(xroot, bg_color)

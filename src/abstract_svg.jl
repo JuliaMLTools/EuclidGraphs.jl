@@ -1,6 +1,5 @@
 abstract type AbstractSVG end
 
-
 function Base.show(io::IO, m::MIME"image/svg+xml", g::AbstractSVG)
     print(io, string(getxdoc(g)))
 end
@@ -78,7 +77,16 @@ function getxdoc(
     xdoc
 end
 
-function svgvcat(svgs...)
+function svgcat(svgs...; dims=1, kwargs...)
+    if dims == 1
+        return svgvcat(svgs...; kwargs...)
+    elseif dims == 2 
+        return svghcat(svgs...; kwargs...)
+    end
+    svgzcat(svgs...; kwargs...)
+end
+
+function svgvcat(svgs...; kwargs...)
     xdoc = EzXML.XMLDocument()
     xroot = ElementNode("svg")
     setroot!(xdoc, xroot)
