@@ -82,7 +82,12 @@ write("logo.svg", svg)
 shapes = [pole triangle square; pentagon hexagon heptagon; octagon nonagon decagon]
 svgs = [g(; svg_width=200, svg_height=200) for g in EuclidGraph.(shapes; fully_connected=true)]
 grid = SVG(svgs)
+write("grid.svg", grid)
 ```
+
+<p align="center">
+    <img width="400px" src="https://raw.githubusercontent.com/JuliaMLTools/EuclidGraphs.jl/main/docs/src/assets/grid.svg"/>
+</p>
 
 ## Installation
 
