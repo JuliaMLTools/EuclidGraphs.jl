@@ -70,17 +70,23 @@ write("grid.svg", grid)
 # Example 5: Graph Neural Network X/Y/Ŷ visualization
 ###
 
-x = SVG([
-    SVGText("X"),
-    EuclidGraph(heptagon; fully_connected=true)(),
-])
-y = SVG([
-    SVGText("Y"),
-    EuclidGraph(heptagon; fully_connected=true)(),
-])
-ŷ = SVG([
-    SVGText("Ŷ"),
-    EuclidGraph(heptagon; fully_connected=true)(),
-])
-xyŷ = SVG([x,y,ŷ], dims=2)
-write("gnn-viz.svg", xyŷ)
+num_nodes = 6
+xgraph = EuclidGraph(ngon(num_nodes), fully_connected=true)
+targetgraph = EuclidGraph(
+    ngon(num_nodes),
+    adj_mat=rand([0,0,0,1], num_nodes, num_nodes),
+    node_style=(node) -> NodeStyle(
+        stroke="#ccc",
+        inner_fill=(isone(node.features[node.idx]) ? "green" : "#fff"),
+        value=(node) -> nothing
+    ),
+    edge_style=(edge) -> EdgeStyle(
+        stroke="green",
+    )
+)
+y_features = ŷ_features = rand([0,0,1], num_nodes)
+x = SVG([SVGText("X"), xgraph()])
+y = SVG([SVGText("Y"), targetgraph(y_features)])
+ŷ = SVG([SVGText("Ŷ"), targetgraph(ŷ_features)])
+gnn = SVG([x,y,ŷ], dims=2) # Renders in VSCode
+write("gnn.svg", gnn)

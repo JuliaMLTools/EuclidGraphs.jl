@@ -89,6 +89,38 @@ write("grid.svg", grid)
     <img width="500px" src="https://raw.githubusercontent.com/JuliaMLTools/EuclidGraphs.jl/main/docs/src/assets/grid.svg"/>
 </p>
 
+
+## Example 5: GNN feature visualization
+
+```julia
+num_nodes = 6
+xgraph = EuclidGraph(ngon(num_nodes), fully_connected=true)
+targetgraph = EuclidGraph(
+    ngon(num_nodes),
+    adj_mat=rand([0,0,0,1], num_nodes, num_nodes),
+    node_style=(node) -> NodeStyle(
+        stroke="#ccc",
+        inner_fill=(isone(node.features[node.idx]) ? "green" : "#fff"),
+        value=(node) -> nothing
+    ),
+    edge_style=(edge) -> EdgeStyle(
+        stroke="green",
+    )
+)
+y_features = ŷ_features = rand([0,0,1], num_nodes)
+x = SVG([SVGText("X"), xgraph()])
+y = SVG([SVGText("Y"), targetgraph(y_features)])
+ŷ = SVG([SVGText("Ŷ"), targetgraph(ŷ_features)])
+gnn = SVG([x,y,ŷ], dims=2) # Renders in VSCode
+write("gnn.svg", gnn)
+```
+
+
+<p align="center">
+    <img width="500px" src="https://raw.githubusercontent.com/JuliaMLTools/EuclidGraphs.jl/main/docs/src/assets/gnn.svg"/>
+</p>
+
+
 ## Installation
 
 The package can be installed with the Julia package manager.
