@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0" y="0" width="900" height="380" viewBox="0 0 900 380" style="background-color:#fff"><svg x="0" y="0" width="300" height="380" viewBox="0 0 300 380" style="background-color:#fff"><svg x="0" y="0" width="300" height="80" viewBox="-150 -40 300 80" style="background-color:#fff"><g><text style="font-size:30px" x="0" y="0" dominant-baseline="middle" text-anchor="middle">
+    X
+</text></g></svg><svg x="0" y="80" width="300" height="300" viewBox="-100 -100 200 200" style="background-color:#fff;"><defs><style type="text/css"/></defs><g>
+          
+    <line x1="0" y1="0" x2="49.99823998063957" y2="0" stroke-width="3" stroke="#333" opacity="1" transform="scale(1,-1) translate(80.0, 0.0) rotate(120.00072778082736) translate(15.0, 0)"/>
+  
+    <line x1="0" y1="0" x2="108.56304846531054" y2="0" stroke-width="3" stroke="#333" opacity="1" transform="scale(1,-1) translate(80.0, 0.0) rotate(150.00072777015302) translate(15.0, 0)"/>
+  
+    <line x1="0" y1="0" x2="130.0" y2="0" stroke-width="3" stroke="#333" opacity="1" transform="scale(1,-1) translate(80.0, 0.0) rotate(180.0) translate(15.0, 0)"/>
+  
+    <line x1="0" y1="0" x2="108.56304846531054" y2="0" stroke-width="3" stroke="#333" opacity="1" transform="scale(1,-1) translate(80.0, 0.0) rotate(209.99927222984698) translate(15.0, 0)"/>
+  
+    <line x1="0" y1="0" x2="49.99823998063957" y2="0" stroke-width="3" stroke="#333" opacity="1" transform="scale(1,-1) translate(80.0, 0.0) rotate(239.99927221917264) translate(15.0, 0)"/>
+   
+    <line x1="0" y1="0" x2="50.0" y2="0" stroke-width="3" stroke="#333" opacity="1" transform="scale(1,-1) translate(40.0, 69.28) rotate(180.0) translate(15.0, 0)"/>
+  
+    <line x1="0" y1="0" x2="108.56304846531054" y2="0" stroke-width="3" stroke="#333" opacity="1" transform="scale(1,-1) translate(40.0, 69.28) rotate(209.99927222984698) translate(15.0, 0)"/>
+  
+    <line x1="0" y1="0" x2="129.99647996127914" y2="0" stroke-width="3" stroke="#333" opacity="1" transform="scale(1,-1) translate(40.0, 69.28) rotate(239.99927221917264) translate(15.0, 0)"/>
+  
+    <line x1="0" y1="0" x2="108.56" y2="0" stroke-width="3" stroke="#333" opacity="1" transform="scale(1,-1) translate(40.0, 69.28) rotate(270.0) translate(15.0, 0)"/>
+   
+    <line x1="0" y1="0" x2="49.99823998063957" y2="0" stroke-width="3" stroke="#333" opacity="1" transform="scale(1,-1) translate(-40.0, 69.28) rotate(239.99927221917264) translate(15.0, 0)"/>
+  
+    <line x1="0" y1="0" x2="108.56" y2="0" stroke-width="3" stroke="#333" opacity="1" transform="scale(1,-1) translate(-40.0, 69.28) rotate(270.0) translate(15.0, 0)"/>
+  
+    <line x1="0" y1="0" x2="129.99647996127914" y2="0" stroke-width="3" stroke="#333" opacity="1" transform="scale(1,-1) translate(-40.0, 69.28) rotate(300.00072778082733) translate(15.0, 0)"/>
+   
+    <line x1="0" y1="0" x2="49.99823998063957" y2="0" stroke-width="3" stroke="#333" opacity="1" transform="scale(1,-1) translate(-80.0, 0.0) rotate(300.00072778082733) translate(15.0, 0)"/>
+  
+    <line x1="0" y1="0" x2="108.56304846531054" y2="0" stroke-width="3" stroke="#333" opacity="1" transform="scale(1,-1) translate(-80.0, 0.0) rotate(330.00072777015305) translate(15.0, 0)"/>
+   
+    <line x1="0" y1="0" x2="50.0" y2="0" stroke-width="3" stroke="#333" opacity="1" transform="scale(1,-1) translate(-40.0, -69.28) rotate(0.0) translate(15.0, 0)"/>
+ 
+        
+        
+            <circle cx="80.0" cy="0.0" r="12" fill="transparent" stroke-width="3" stroke="#333" transform="scale(1,-1)"/>
+    <circle cx="80.0" cy="0.0" r="8.0" stroke-width="0" fill="transparent" transform="scale(1,-1)"/>
+        <text x="80.0" y="1.0" text-anchor="middle" dominant-baseline="middle" fill="#333" font-family="Arial" font-size="12">
+        1
+    </text>
+
+     <circle cx="40.0" cy="69.28" r="12" fill="transparent" stroke-width="3" stroke="#333" transform="scale(1,-1)"/>
+    <circle cx="40.0" cy="69.28" r="8.0" stroke-width="0" fill="transparent" transform="scale(1,-1)"/>
+        <text x="40.0" y="-68.28" text-anchor="middle" dominant-baseline="middle" fill="#333" font-family="Arial" font-size="12">
+        2
+    </text>
+
+     <circle cx="-40.0" cy="69.28" r="12" fill="transparent" stroke-width="3" stroke="#333" transform="scale(1,-1)"/>
+    <circle cx="-40.0" cy="69.28" r="8.0" stroke-width="0" fill="transparent" transform="scale(1,-1)"/>
+        <text x="-40.0" y="-68.28" text-anchor="middle" dominant-baseline="middle" fill="#333" font-family="Arial" font-size="12">
+        3
+    </text>
+
+     <circle cx="-80.0" cy="0.0" r="12" fill="transparent" stroke-width="3" stroke="#333" transform="scale(1,-1)"/>
+    <circle cx="-80.0" cy="0.0" r="8.0" stroke-width="0" fill="transparent" transform="scale(1,-1)"/>
+        <text x="-80.0" y="1.0" text-anchor="middle" dominant-baseline="middle" fill="#333" font-family="Arial" font-size="12">
+        4
+    </text>
+
+     <circle cx="-40.0" cy="-69.28" r="12" fill="transparent" stroke-width="3" stroke="#333" transform="scale(1,-1)"/>
+    <circle cx="-40.0" cy="-69.28" r="8.0" stroke-width="0" fill="transparent" transform="scale(1,-1)"/>
+        <text x="-40.0" y="70.28" text-anchor="middle" dominant-baseline="middle" fill="#333" font-family="Arial" font-size="12">
+        5
+    </text>
+
+     <circle cx="40.0" cy="-69.28" r="12" fill="transparent" stroke-width="3" stroke="#333" transform="scale(1,-1)"/>
+    <circle cx="40.0" cy="-69.28" r="8.0" stroke-width="0" fill="transparent" transform="scale(1,-1)"/>
+        <text x="40.0" y="70.28" text-anchor="middle" dominant-baseline="middle" fill="#333" font-family="Arial" font-size="12">
+        6
+    </text>
+
+
+    </g></svg></svg><svg x="300" y="0" width="300" height="380" viewBox="0 0 300 380" style="background-color:#fff"><svg x="0" y="0" width="300" height="80" viewBox="-150 -40 300 80" style="background-color:#fff"><g><text style="font-size:30px" x="0" y="0" dominant-baseline="middle" text-anchor="middle">
+    Y
+</text></g></svg><svg x="0" y="80" width="300" height="300" viewBox="-100 -100 200 200" style="background-color:#fff;"><defs><style type="text/css"/></defs><g>
+         
+            <line x1="0" y1="0" x2="102.56304846531054" y2="0" stroke-width="3" stroke="green" opacity="1" transform="scale(1,-1) translate(-40.0, 69.28) rotate(330.00072777015305) translate(18.0, 0)"/>
+     <line x1="0" y1="0" x2="124.0" y2="0" stroke-width="3" stroke="green" opacity="1" transform="scale(1,-1) translate(-80.0, 0.0) rotate(0.0) translate(18.0, 0)"/>
+     <line x1="0" y1="0" x2="123.99647996127914" y2="0" stroke-width="3" stroke="green" opacity="1" transform="scale(1,-1) translate(-40.0, -69.28) rotate(59.999272219172646) translate(18.0, 0)"/>
+     <line x1="0" y1="0" x2="102.56304846531054" y2="0" stroke-width="3" stroke="green" opacity="1" transform="scale(1,-1) translate(80.0, 0.0) rotate(209.99927222984698) translate(18.0, 0)"/>
+     <line x1="0" y1="0" x2="102.56" y2="0" stroke-width="3" stroke="green" opacity="1" transform="scale(1,-1) translate(-40.0, 69.28) rotate(270.0) translate(18.0, 0)"/>
+     <line x1="0" y1="0" x2="43.99823998063957" y2="0" stroke-width="3" stroke="green" opacity="1" transform="scale(1,-1) translate(-80.0, 0.0) rotate(300.00072778082733) translate(18.0, 0)"/>
+     <line x1="0" y1="0" x2="43.99823998063957" y2="0" stroke-width="3" stroke="green" opacity="1" transform="scale(1,-1) translate(80.0, 0.0) rotate(239.99927221917264) translate(18.0, 0)"/>
+     <line x1="0" y1="0" x2="44.0" y2="0" stroke-width="3" stroke="green" opacity="1" transform="scale(1,-1) translate(-40.0, -69.28) rotate(0.0) translate(18.0, 0)"/>
+
+            <polygon points="25,-5 15,0 25,5" fill="green" transform="scale(1,-1) translate(80.0, 0.0) rotate(150.00072777015302)"/>
+     <polygon points="25,-5 15,0 25,5" fill="green" transform="scale(1,-1) translate(80.0, 0.0) rotate(180.0)"/>
+     <polygon points="25,-5 15,0 25,5" fill="green" transform="scale(1,-1) translate(40.0, 69.28) rotate(239.99927221917264)"/>
+     <polygon points="25,-5 15,0 25,5" fill="green" transform="scale(1,-1) translate(-40.0, -69.28) rotate(29.99927222984698)"/>
+     <polygon points="25,-5 15,0 25,5" fill="green" transform="scale(1,-1) translate(-40.0, -69.28) rotate(90.0)"/>
+     <polygon points="25,-5 15,0 25,5" fill="green" transform="scale(1,-1) translate(-40.0, -69.28) rotate(120.00072778082736)"/>
+     <polygon points="25,-5 15,0 25,5" fill="green" transform="scale(1,-1) translate(40.0, -69.28) rotate(59.999272219172646)"/>
+     <polygon points="25,-5 15,0 25,5" fill="green" transform="scale(1,-1) translate(40.0, -69.28) rotate(180.0)"/>
+
+            <circle cx="80.0" cy="0.0" r="12" fill="transparent" stroke-width="3" stroke="#ccc" transform="scale(1,-1)"/>
+    <circle cx="80.0" cy="0.0" r="8.0" stroke-width="0" fill="#fff" transform="scale(1,-1)"/>
+    
+     <circle cx="40.0" cy="69.28" r="12" fill="transparent" stroke-width="3" stroke="#ccc" transform="scale(1,-1)"/>
+    <circle cx="40.0" cy="69.28" r="8.0" stroke-width="0" fill="#fff" transform="scale(1,-1)"/>
+    
+     <circle cx="-40.0" cy="69.28" r="12" fill="transparent" stroke-width="3" stroke="#ccc" transform="scale(1,-1)"/>
+    <circle cx="-40.0" cy="69.28" r="8.0" stroke-width="0" fill="green" transform="scale(1,-1)"/>
+    
+     <circle cx="-80.0" cy="0.0" r="12" fill="transparent" stroke-width="3" stroke="#ccc" transform="scale(1,-1)"/>
+    <circle cx="-80.0" cy="0.0" r="8.0" stroke-width="0" fill="#fff" transform="scale(1,-1)"/>
+    
+     <circle cx="-40.0" cy="-69.28" r="12" fill="transparent" stroke-width="3" stroke="#ccc" transform="scale(1,-1)"/>
+    <circle cx="-40.0" cy="-69.28" r="8.0" stroke-width="0" fill="green" transform="scale(1,-1)"/>
+    
+     <circle cx="40.0" cy="-69.28" r="12" fill="transparent" stroke-width="3" stroke="#ccc" transform="scale(1,-1)"/>
+    <circle cx="40.0" cy="-69.28" r="8.0" stroke-width="0" fill="#fff" transform="scale(1,-1)"/>
+    
+
+    </g></svg></svg><svg x="600" y="0" width="300" height="380" viewBox="0 0 300 380" style="background-color:#fff"><svg x="0" y="0" width="300" height="80" viewBox="-150 -40 300 80" style="background-color:#fff"><g><text style="font-size:30px" x="0" y="0" dominant-baseline="middle" text-anchor="middle">
+    Ŷ
+</text></g></svg><svg x="0" y="80" width="300" height="300" viewBox="-100 -100 200 200" style="background-color:#fff;"><defs><style type="text/css"/></defs><g>
+         
+            <line x1="0" y1="0" x2="102.56304846531054" y2="0" stroke-width="3" stroke="green" opacity="1" transform="scale(1,-1) translate(-40.0, 69.28) rotate(330.00072777015305) translate(18.0, 0)"/>
+     <line x1="0" y1="0" x2="124.0" y2="0" stroke-width="3" stroke="green" opacity="1" transform="scale(1,-1) translate(-80.0, 0.0) rotate(0.0) translate(18.0, 0)"/>
+     <line x1="0" y1="0" x2="123.99647996127914" y2="0" stroke-width="3" stroke="green" opacity="1" transform="scale(1,-1) translate(-40.0, -69.28) rotate(59.999272219172646) translate(18.0, 0)"/>
+     <line x1="0" y1="0" x2="102.56304846531054" y2="0" stroke-width="3" stroke="green" opacity="1" transform="scale(1,-1) translate(80.0, 0.0) rotate(209.99927222984698) translate(18.0, 0)"/>
+     <line x1="0" y1="0" x2="102.56" y2="0" stroke-width="3" stroke="green" opacity="1" transform="scale(1,-1) translate(-40.0, 69.28) rotate(270.0) translate(18.0, 0)"/>
+     <line x1="0" y1="0" x2="43.99823998063957" y2="0" stroke-width="3" stroke="green" opacity="1" transform="scale(1,-1) translate(-80.0, 0.0) rotate(300.00072778082733) translate(18.0, 0)"/>
+     <line x1="0" y1="0" x2="43.99823998063957" y2="0" stroke-width="3" stroke="green" opacity="1" transform="scale(1,-1) translate(80.0, 0.0) rotate(239.99927221917264) translate(18.0, 0)"/>
+     <line x1="0" y1="0" x2="44.0" y2="0" stroke-width="3" stroke="green" opacity="1" transform="scale(1,-1) translate(-40.0, -69.28) rotate(0.0) translate(18.0, 0)"/>
+
+            <polygon points="25,-5 15,0 25,5" fill="green" transform="scale(1,-1) translate(80.0, 0.0) rotate(150.00072777015302)"/>
+     <polygon points="25,-5 15,0 25,5" fill="green" transform="scale(1,-1) translate(80.0, 0.0) rotate(180.0)"/>
+     <polygon points="25,-5 15,0 25,5" fill="green" transform="scale(1,-1) translate(40.0, 69.28) rotate(239.99927221917264)"/>
+     <polygon points="25,-5 15,0 25,5" fill="green" transform="scale(1,-1) translate(-40.0, -69.28) rotate(29.99927222984698)"/>
+     <polygon points="25,-5 15,0 25,5" fill="green" transform="scale(1,-1) translate(-40.0, -69.28) rotate(90.0)"/>
+     <polygon points="25,-5 15,0 25,5" fill="green" transform="scale(1,-1) translate(-40.0, -69.28) rotate(120.00072778082736)"/>
+     <polygon points="25,-5 15,0 25,5" fill="green" transform="scale(1,-1) translate(40.0, -69.28) rotate(59.999272219172646)"/>
+     <polygon points="25,-5 15,0 25,5" fill="green" transform="scale(1,-1) translate(40.0, -69.28) rotate(180.0)"/>
+
+            <circle cx="80.0" cy="0.0" r="12" fill="transparent" stroke-width="3" stroke="#ccc" transform="scale(1,-1)"/>
+    <circle cx="80.0" cy="0.0" r="8.0" stroke-width="0" fill="#fff" transform="scale(1,-1)"/>
+    
+     <circle cx="40.0" cy="69.28" r="12" fill="transparent" stroke-width="3" stroke="#ccc" transform="scale(1,-1)"/>
+    <circle cx="40.0" cy="69.28" r="8.0" stroke-width="0" fill="#fff" transform="scale(1,-1)"/>
+    
+     <circle cx="-40.0" cy="69.28" r="12" fill="transparent" stroke-width="3" stroke="#ccc" transform="scale(1,-1)"/>
+    <circle cx="-40.0" cy="69.28" r="8.0" stroke-width="0" fill="green" transform="scale(1,-1)"/>
+    
+     <circle cx="-80.0" cy="0.0" r="12" fill="transparent" stroke-width="3" stroke="#ccc" transform="scale(1,-1)"/>
+    <circle cx="-80.0" cy="0.0" r="8.0" stroke-width="0" fill="#fff" transform="scale(1,-1)"/>
+    
+     <circle cx="-40.0" cy="-69.28" r="12" fill="transparent" stroke-width="3" stroke="#ccc" transform="scale(1,-1)"/>
+    <circle cx="-40.0" cy="-69.28" r="8.0" stroke-width="0" fill="green" transform="scale(1,-1)"/>
+    
+     <circle cx="40.0" cy="-69.28" r="12" fill="transparent" stroke-width="3" stroke="#ccc" transform="scale(1,-1)"/>
+    <circle cx="40.0" cy="-69.28" r="8.0" stroke-width="0" fill="#fff" transform="scale(1,-1)"/>
+    
+
+    </g></svg></svg></svg>
