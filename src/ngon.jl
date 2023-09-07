@@ -2,6 +2,9 @@
     Get the vertices of a regular polygon.
 """
 function ngon(n::Int, r::Real=80)
+    if isone(n)
+        return [(0,0)]
+    end
     θ = 2π/n
     tround(xy) = round.(xy, digits=2)
     [(r*cos(i*θ), r*sin(i*θ)) for i in 0:n-1] .|> tround
