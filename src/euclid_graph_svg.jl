@@ -150,8 +150,9 @@ function getedgeswithoutarrows(e)
             undirected_stroke,
             undirected_stroke_width,
             undirected_opacity,
+            value,
         ) = user_style
-        """ 
+        line_svg = """ 
             <line 
                 x1="0" 
                 y1="0" 
@@ -163,6 +164,19 @@ function getedgeswithoutarrows(e)
                 transform="scale(1,-1) translate($(x1), $(y1)) rotate($(degs)) translate($(1.25*full_r), 0)"
             />
         """
+        text_svg = isnothing(value) ? "" : """
+            <text
+                style="font-size:15px;"
+                x="$(len_padded/2)" 
+                y="0" 
+                dominant-baseline="middle" 
+                text-anchor="middle"
+                transform="scale(1,-1) translate($(x1), $(y1)) rotate($(degs)) translate($(1.25*full_r), 0) scale(1, -1)"
+                >
+                $(value)
+            </text>
+        """
+        "$line_svg$text_svg"
     end
 end
 

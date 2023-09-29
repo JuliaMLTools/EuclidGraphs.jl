@@ -6,6 +6,7 @@ struct EdgeStyle
     undirected_stroke_width
     directed_opacity
     undirected_opacity
+    value
     function EdgeStyle(;
         stroke="#333",
         stroke_width=3,
@@ -17,6 +18,7 @@ struct EdgeStyle
         undirected_stroke_width=nothing,
         directed_opacity=nothing,
         undirected_opacity=nothing,
+        value=nothing,
         )
         if isnothing(directed_stroke_width)
             directed_stroke_width = stroke_width
@@ -47,6 +49,7 @@ struct EdgeStyle
             undirected_stroke_width,
             directed_opacity,
             undirected_opacity,
+            value,
         )
     end
 end
