@@ -2,6 +2,7 @@ module EuclidGraphs
 
 include("imports.jl")
 include("utils.jl")
+export getuniedges, getbiedges
 
 include("abstract_svg.jl")
 export svgcat, svgvcat, svghcat, svgzcat
